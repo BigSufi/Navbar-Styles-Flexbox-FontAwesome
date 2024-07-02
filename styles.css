@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.navContainer {
+  background-color: #9932cc;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 700;
+}
+.highlight {
+  color: greenyellow;
+}
+
+.navLinks li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10%;
+}
+
+.navLinks a:hover {
+  color: #9932cc;
+  background-color: greenyellow;
+}
+
+.navLinks ul {
+  display: flex;
+  gap: 25px;
+}
+
+/* Navbar Styles 02 */
+.navbarSection {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.someIcons {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: aliceblue;
+  gap: 30px;
+}
+
+.someIcons .faSize {
+  font-size: 32px;
+  color: aliceblue;
+}
+
+.someIcons i:hover {
+  color: greenyellow;
+}
+
+.navLogo {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.logoContainer {
+  background-color: rgb(169, 33, 169);
+  position: absolute;
+  height: 150px;
+  padding: 30px;
+  left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 100px;
+}
+
+.navCon {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  align-items: center;
+}
